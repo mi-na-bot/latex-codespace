@@ -7,8 +7,6 @@
       "vscode": {
         "editor.tabSize": 2,
         "files.autoSave": "off",
-        "latex-workshop.formatting.latex": "tex-fmt",
-        "latex-workshop.formatting.tex-fmt.path": "/home/vscode/.cargo/bin/tex-fmt",
         "extensions": [
             "James-Yu.latex-workshop"
         ]

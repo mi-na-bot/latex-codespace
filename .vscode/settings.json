@@ -1,0 +1,4 @@
+{
+  "latex-workshop.formatting.tex-fmt.path": "/home/vscode/.cargo/bin/tex-fmt",
+  "latex-workshop.formatting.latex": "tex-fmt"
+}
