@@ -1,0 +1,18 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/debian
+{
+    "name": "Ubuntu",
+    "build": { "dockerfile": "Dockerfile" },
+    "customizations": {
+      "vscode": {
+        "editor.tabSize": 2,
+        "files.autoSave": "off",
+        "latex-workshop.formatting.latex": "tex-fmt",
+        "latex-workshop.formatting.tex-fmt.path": "/home/vscode/.cargo/bin/tex-fmt",
+        "extensions": [
+            "James-Yu.latex-workshop"
+        ]
+      }
+    }
+    //,"forwardPorts": [3000]
+  }

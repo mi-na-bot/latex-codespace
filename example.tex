@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{tikz}
+\usetikzlibrary{arrows,automata,positioning}
+
+\title{Latex Sample File with FSM diagrams.}
+\author{Your Name}
+\date{February 2025}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+\begin{tikzpicture}[shorten >=1pt, node distance=5cm, on grid, auto]
+  \tikzset{every state/.style={fill=gray!20}} % Adjust color if needed
+
+  \node[state, initial] (s_0) {$s_0$};
+
+  \path[->]
+  (s_0) edge [loop above] node {0,1,97,lol} (); % Correct edge syntax
+\end{tikzpicture}
+
+\section{Introduction2}
+
+\begin{tikzpicture}[shorten >=1pt, node distance=5cm, on grid, auto]
+  \tikzset{every state/.style={fill=gray!20}} % Adjust color if needed
+
+  \node[state, initial] (s_0) {$s_0$};
+
+  \path[->]
+  (s_0) edge [loop above] node {0,1,98,lol} (); % Correct edge syntax
+\end{tikzpicture}
+
+\end{document}
